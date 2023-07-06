@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Sharath</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- ajax -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <style>
+    @media screen and (max-width:700px) {
+      .main-profie-image-container {
+        display: none;
+      }
+
+      .container h2,
+      h1 {
+
+        width: 325px;
+        text-align: center;
+      }
+
+      .profile-pic-container {
+        display: flex;
+        z-index: 0;
+        top: 100px;
+      }
+
+
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="profile-pic-container" id="mob-pic">
+      <div class="mobile_responsive_profile_pic_container" style="  background-image: url('profile-picture.jpg');">
+
+      </div>
+    </div>
+
+    <div class="main-profie-image-container" id="profile">
+      <div class="triangle">
+        <div class="photo-container">
+          <img src="assets\img\profile-picture.jpg" alt="" style="width: 100%; height: 100%;">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+
+      <h1><a href="index.html">Sharath J</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      <h2>I'm a passionate <span>Web Developer</span> from India</h2>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header" onclick="show_photo();">Home</a></li>
+          <li><a class="nav-link" href="#about" onclick="hide_photo();">About</a></li>
+          <li><a class="nav-link" href="#resume" onclick="hide_photo();">Resume</a></li>
+          <li><a class="nav-link" href="#services" onclick="hide_photo();">Services</a></li>
+          <li><a class="nav-link" href="#portfolio" onclick="hide_photo();">Works</a></li>
+          <li><a class="nav-link" href="#contact" onclick="hide_photo();">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle" onclick="hide_photo()"></i>
+      </nav><!-- .navbar -->
+
+      <div class="social-links">
+        <a href="https://github.com/Sharath-RJ" class="twitter"><i class="bi bi-github"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100080987665190" class="facebook"><i
+            class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/bot_interpreter_/?igshid=ZDc4ODBmNjlmNQ%3D%3D" class="instagram"><i
+            class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/sharath-j-334b76245/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>About</h2>
+        <p>Learn more about me</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4"  data-aos="fade-right">
+          <img src="profile-picture.jpg" class="img-fluid" alt="profile">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Full Stack Web Developer</h3>
+          <p class="fst-italic" style="visibility: hidden;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua.
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>3 Dec 2001</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.sharath.com</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 9567892611</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kerala, India</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelors in Computer
+                    Science</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>sharathj116@gmail.com</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            Step into the dynamic world of web development powered by PHP and MySQL! As a versatile full-stack web
+            developer, I
+            combine my expertise in front-end design and back-end programming to create robust and interactive online
+            experiences
+            that engage users and drive business growth.
+          </p>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+
+    <!-- ======= Counts ======= -->
+
+
+
+
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
+
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">HTML <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">CSS <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">JavaScript <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">PHP <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">My Sql <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Django <i class="val">30%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div><!-- End Skills -->
+
+    <!-- ======= Interests ======= -->
+
+
+
+
+
+    <!-- End Interests -->
+
+    <!-- ======= Testimonials ======= -->
+
+
+
+
+
+
+
+
+
+
+  </section><!-- End About Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p>Check My Resume</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Sumary</h3>
+          <div class="resume-item pb-0">
+            <h4>Sharath J</h4>
+            <p><em>Well qualified full stack Developer familiar with wide range of programming languages. Knowledge of
+                backend and front
+                end development requirements. Handles any part of process with ease.</em></p>
+            <p>
+            <ul>
+              <li>Kerala,India</li>
+              <li>+91 9567892611</li>
+              <li>sharathj116@gmail.com</li>
+            </ul>
+            </p>
+          </div>
+
+
+
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>Bachelors in Computer Science</h4>
+            <h5>2020 - 2023</h5>
+            <p><em>Emmanuel College of Arts and Science Vazhichal,Trivandrum </em></p>
+            <p>University of Kerala </p>
+          </div>
+          <div class="resume-item">
+            <h4>Full Stack Web Developer -Intern</h4>
+            <h5>2023 - Present</h5>
+            <p><em>BROTOTYPE</em></p>
+            <p>Software Training Institute</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>My Services</p>
+      </div>
+
+      <div class="row">
+
+
+
+
+
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><span class="material-symbols-outlined">
+                polymer
+              </span></div>
+            <h4><a href="">Logo Designing</a></h4>
+            <p>I specialize in logo design and will work closely with you to understand your vision and deliver a logo
+              that exceeds
+              your expectations. It will perfectly represents your brand's identity.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><span class="material-symbols-outlined">
+                design_services
+              </span></div>
+            <h4><a href="">UI/UX Designing</a></h4>
+            <p>I will pay attention to every detail in the UI design process, from typography and color choices to
+              micro-interactions
+              and transitions, to ensure a polished and immersive user experience.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><span class="material-symbols-outlined">
+                code
+              </span></div>
+            <h4><a href="">Web Development</a></h4>
+            <p>I will employ a user-centered design approach and conduct thorough research to create a website that is
+              intuitive, easy
+              to navigate, and optimized for conversions, providing the best experience for your visitors.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Works</h2>
+        <p>My Works</p>
+      </div>
+
+
+      <div style="display: flex; gap: 10%; flex-wrap: wrap; justify-content: space-around;">
+
+
+
+
+
+
+
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets\img\projects\spiti.png" class="img-fluid" alt="project-1">
+            <div class="portfolio-info">
+              <h4>SPITI</h4>
+              <!-- <p>App</p> -->
+              <div class="portfolio-links">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets\img\projects\Library-Management-Source-Code.jpg" alt="project-2"
+              style="height: 100%; width: 100%;">
+            <div class="portfolio-info">
+              <h4>Library Management Syatem</h4>
+              <!-- <p>Card</p> -->
+              <div class="portfolio-links">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets\img\projects\wonderla-bengaluru-1584343957.jpg" class="img-fluid" alt="project-3">
+            <div class="portfolio-info">
+              <h4>Wonderla</h4>
+              <!-- <p>Card</p> -->
+              <div class="portfolio-links">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets\img\projects\th.jpg" class="img-fluid" alt="project-4" style="width: 100%;">
+            <div class="portfolio-info">
+              <h4>Go Daddy</h4>
+              <!-- <p>Web</p> -->
+              <div class="portfolio-links">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Contact Me</p>
+      </div>
+
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <!-- <i class="bx bx-map"></i> -->
+            <h3>My Address</h3>
+            <p>Karamana,Trivandrum,India </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <!-- <i class="bx bx-share-alt"></i> -->
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="https://github.com/Sharath-RJ" class="twitter"><i class="bi bi-github"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100080987665190" class="facebook"><i
+                  class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/bot_interpreter_/?igshid=ZDc4ODBmNjlmNQ%3D%3D" class="instagram"><i
+                  class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/sharath-j-334b76245/" class="linkedin"><i
+                  class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <!-- <i class="bx bx-envelope"></i> -->
+            <h3>Email Me</h3>
+            <p>sharathj116@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <!-- <i class="bx bx-phone-call"></i> -->
+            <h3>Call Me</h3>
+            <p>91+ 9567892611</p>
+          </div>
+        </div>
+      </div>
+
+      <form id="submit-form" action="" class="php-email-form mt-4" action="" method="post" name="form-data" role="form">
+        <div class="row">
+          <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
+            <span id="name-error"></span>
+          </div>
+          <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="text" class="form-control" name="email" id="email" placeholder="Your Email">
+            <span id="email-error"></span>
+          </div>
+        </div>
+        <div class="form-group mt-3">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+          <span id="subject-error"></span>
+        </div>
+        <div class="form-group mt-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="message"></textarea>
+          <span id="msg-error"></span>
+        </div>
+        <div class="my-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+        </div>
+        <div class="text-center">
+          <button type="submit" id="submit" name="submit">Send Message</button>
+        </div>
+
+      </form>
+
+
+    </div>
+  </section><!-- End Contact Section -->
+
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+    Designed by <a href="https://bootstrapmade.com/">Sharath J</a>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets\vendor\waypoints\noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    function form_upload() {
+      $("#submit-form").submit((e) => {
+        e.preventDefault()
+        $.ajax({
+          url: "https://script.google.com/macros/s/AKfycbzHknXrtvaMhOR0zmSZ0w087kcrRgKyZs4QDyKnB5-JoDkbL1r1xMuiVwVoXq8Wce6u/exec",
+          data: $("#submit-form").serialize(),
+          method: "post",
+          success: function (response) {
+            alert("Form submitted successfully")
+            window.location.reload()
+            //window.location.href="https://google.com"
+          },
+          error: function (err) {
+            alert("Something Error")
+          },
+        })
+      })
+
+    }
+    const form = document.getElementById('submit-form')
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      let name = document.forms["form-data"]["name"].value;
+      let email = document.forms["form-data"]["email"].value;
+      let subject = document.forms["form-data"]["subject"].value;
+      let message = document.forms["form-data"]["message"].value;
+      let name_error = false, email_error = false, subject_error = false, message_error = false;
+
+      if (name == "") {
+        document.getElementById('name-error').innerHTML = "Enter your name";
+      }
+      else {
+        if (name.length <= 3) {
+          document.getElementById('name-error').innerHTML = "Name must contain more than 3 character";
+        }
+        else if (/[a-z]/.test(name[0])) {
+          document.getElementById('name-error').innerHTML = "First letter must be Capital";
+        }
+        else if (/[0-9]/.test(name)) {
+          document.getElementById('name-error').innerHTML = "Avoid Number from Name";
+        }
+        else {
+          document.getElementById('name-error').innerHTML = " ";
+          name_error = true;
+        }
+
+      }
+
+
+      if (email == "") {
+        document.getElementById('email-error').innerHTML = "Enter your email";
+      }
+      else {
+        let res = /^([a-zA-Z0-9\._]+)@([a-zA-Z0-9])+.([a-z]+)(.[a-z]+)?$/;
+        if (!res.test(email)) {
+          document.getElementById('email-error').innerHTML = "Enter a valid Email";
+        }
+        else if (res.test(email)) {
+          document.getElementById('email-error').innerHTML = " ";
+          email_error = true;
+        }
+
+      }
+
+      if (subject == "") {
+        document.getElementById('subject-error').innerHTML = "Subject is required"
+      }
+      else {
+        let res = /[0-9]/
+        if (res.test(subject)) {
+          document.getElementById('subject-error').innerHTML = "Subject Must not contain number"
+        }
+        else if (!res.test(subject)) {
+          document.getElementById('subject-error').innerHTML = " "
+          subject_error = true
+        }
+
+      }
+      if (message == "") {
+        document.getElementById('msg-error').innerHTML = "Message is required";
+      }
+      else {
+        if (message.length <= 20) {
+          document.getElementById('msg-error').innerHTML = "Message must have atleast 20 character";
+        }
+        else {
+          document.getElementById('msg-error').innerHTML = " ";
+          message_error = true;
+        }
+      }
+
+
+      if (message_error == true && name_error == true && subject_error == true && email_error == true) {
+        form_upload();
+      }
+
+
+    })
+
+
+
+
+
+
+
+  </script>
+
+</body>
+
+</html>
