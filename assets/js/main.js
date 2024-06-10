@@ -195,13 +195,16 @@
  }
  function show_photo() {
      let element = document.getElementById("profile")
-     let pic=document.getElementById("mob-pic")
-     if (element.style.display == "none" && window.innerWidth>700) {
-         element.style.display = "flex"
-     }
-     if(pic.style.display=="none")
-     {
-      pic.style.display="flex"
+     let pic = document.getElementById("mob-pic")
+
+     if (window.innerWidth > 700) {
+         if (element.style.display == "none") {
+             element.style.display = "flex"
+         }
+     } else {
+         if (pic.style.display == "none") {
+             pic.style.display = "flex"
+         }
      }
  }
 
